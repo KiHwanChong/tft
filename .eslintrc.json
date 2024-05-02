@@ -1,0 +1,60 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "next/core-web-vitals",
+    "airbnb",
+    "airbnb-typescript",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["react", "@typescript-eslint", "react-hooks"],
+  "rules": {
+    "arrow-body-style": "off",
+    "camelcase": "off",
+    "function-paren-newline": "off",
+    "indent": "off",
+    "implicit-arrow-linebreak": "off",
+    "import/no-extraneous-dependencies": "off",
+    "linebreak-style": 0,
+    "no-console": "off",
+    "no-confusing-arrow": "off",
+    "no-multiple-empty-lines": "off",
+    "operator-linebreak": "off",
+    "object-curly-newline": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".ts"] }],
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/no-children-prop": "off",
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "react-hooks/rules-of-hooks": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "react/function-component-definition": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "no-plusplus": "off",
+    "react/button-has-type": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "react/require-default-props": "off",
+    "@typescript-eslint/naming-convention": "off",
+    "@typescript-eslint/ban-types": "off",
+    "no-param-reassign": "off",
+    "object-shorthand": "off",
+    "consistent-return": "off"
+  }
+}
